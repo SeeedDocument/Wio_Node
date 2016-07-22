@@ -60,11 +60,19 @@ Let us build a very basic LED application with Wio Node,in this application you 
 
 |What you need|
 |:---:|
-|**Wio node**[![](https://github.com/SeeedDocument/Wio_Node/raw/master/pictures/Wio%20Node2.png)](https://www.seeedstudio.com/Wio-Node-p-2637.html)|
-|**Grove-Led by Seeed**[![](https://github.com/SeeedDocument/Wio_Node/raw/master/pictures/Red%20LED.jpg)](https://www.seeedstudio.com/Grove-Red-LED-p-1142.html)|
-|**USB cable**[![](https://github.com/SeeedDocument/Wio_Node/raw/master/pictures/48cmUSBc.jpg)](http://www.seeedstudio.com/Micro-USB-Cable-48cm-p-1475.html)|
-|**Grove - Universal 4 Pin Buckled Cable**[![](https://github.com/SeeedDocument/Wio_Node/raw/master/pictures/20cmbk1.jpg)](http://www.seeedstudio.com/Grove-Universal-4-Pin-Buckled-20cm-Cable-(5-PCs-pack)-p-936.html)|
-|**Smartphone (Android OS version 4.1 or advanced, iOS version 7 or advanced.)**|
+|**1.Wio node**
+[![](https://github.com/SeeedDocument/Wio_Node/raw/master/pictures/Wio%20Node2.png)](https://www.seeedstudio.com/Wio-Node-p-2637.html)|
+||
+|**2.Grove-Led by Seeed**
+[![](https://github.com/SeeedDocument/Wio_Node/raw/master/pictures/Red%20LED.jpg)](https://www.seeedstudio.com/Grove-Red-LED-p-1142.html)|
+||
+|**3.USB cable**
+[![](https://github.com/SeeedDocument/Wio_Node/raw/master/pictures/48cmUSBc.jpg)](http://www.seeedstudio.com/Micro-USB-Cable-48cm-p-1475.html)|
+||
+|**4.Grove - Universal 4 Pin Buckled Cable**
+[![](https://github.com/SeeedDocument/Wio_Node/raw/master/pictures/20cmbk1.jpg)](http://www.seeedstudio.com/Grove-Universal-4-Pin-Buckled-20cm-Cable-(5-PCs-pack)-p-936.html)|
+||
+|**5.Smartphone (Android OS version 4.1 or advanced, iOS version 7 or advanced.)**|
 ### Step 1: Install Android/iOS App
 You need to install the Wio Link App to manage and configure your Wio Node devices.
 
