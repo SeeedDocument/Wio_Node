@@ -12,7 +12,6 @@ Just like the meaning of its name, Wio Node is truly a WiFi dot that connect thi
 
 The ecosystem of Wio Node also consists of Open Hardware **Wio Node board**, **Open Source Wio Link Mobile App** and **Open Source IoT Server implementation**. So the software platform for Wio Link is also available for Wio Node.
 
-
 [![Get one now](https://github.com/SeeedDocument/Wio_Node/raw/master/pictures/300px-Get_One_Now_Banner.png)](https://www.seeedstudio.com/Wio-Node-p-2637.html)
 
 ## Features
@@ -57,12 +56,14 @@ Note!
 
 
 ## Get Started
-Let us build a very basic LED application with Wio Node,in this application you will be able to control LED by your smartphone in about 5 minutes.Before we start, please make sure you have below things on hand:（need pictures and links later）
-- Wio node
-- Smartphone (Android OS version 4.1 or advanced, iOS version 7 or advanced.)
-- Grove-Led by Seeed
-- USB cable
-
+Let us build a very basic LED application with Wio Node,in this application you will be able to control LED by your smartphone in about 5 minutes.Before we start, please make sure you have below things on hand:
+|What you need|
+|:---:|
+|**Wio node**[![](https://github.com/SeeedDocument/Wio_Node/raw/master/pictures/Wio%20Node2.png)](https://www.seeedstudio.com/Wio-Node-p-2637.html)|
+|**Grove-Led by Seeed**[![](https://github.com/SeeedDocument/Wio_Node/raw/master/pictures/Red%20LED.jpg)](https://www.seeedstudio.com/Grove-Red-LED-p-1142.html)|
+|**USB cable**[![](https://github.com/SeeedDocument/Wio_Node/raw/master/pictures/48cmUSBc.jpg)](http://www.seeedstudio.com/Micro-USB-Cable-48cm-p-1475.html)|
+|**Grove - Universal 4 Pin Buckled Cable**[![](https://github.com/SeeedDocument/Wio_Node/raw/master/pictures/20cmbk1.jpg)](http://www.seeedstudio.com/Grove-Universal-4-Pin-Buckled-20cm-Cable-(5-PCs-pack)-p-936.html)|
+|**Smartphone (Android OS version 4.1 or advanced, iOS version 7 or advanced.)**|
 ### Step 1: Install Android/iOS App
 You need to install the Wio Link App to manage and configure your Wio Node devices.
 
@@ -128,6 +129,7 @@ If you already have an IFTTT account,click [here](https://ifttt.com/recipes/sear
 What is DoButton? DoButtton is one of IFTTT's application that empowers you to create your own personalized button with just a tap,it is very suitable for building IoT projects and control it through your smartphone, here are two examples to show you how to use IFTTT&DoButton to make useful applications.
 
 ### Example:
+
 |**IFTTT**|**DoButton**|
 |-|-|
 |[**Recipe**][DIY an Automatic Garden Irrigation without coding](http://www.seeed.cc/project_detail.html?id=1080)|[**Recipe**][How to feed your pets when you're not home](http://www.seeed.cc/project_detail.html?id=1066)|
@@ -165,6 +167,7 @@ If you have any issues when you are using Wio Node or other Wio products, welcom
 - [**Incorrect temperature?**](http://www.seeed.cc/topic_detail.html?id=5787)
 - [**One Wire Temperature Sensor With WioNode**](http://www.seeed.cc/topic_detail.html?id=5781)
 - [**#idea SAM - an Integrated Sound and Music system for the home.**](http://www.seeed.cc/topic_detail.html?id=5609)
+
 ## Resources
 - Documentation and references
   - [API Reference](http://seeed-studio.github.io/Wio_Link/)
