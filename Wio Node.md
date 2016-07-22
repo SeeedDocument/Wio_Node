@@ -57,6 +57,7 @@ Note!
 
 ## Get Started
 Let us build a very basic LED application with Wio Node,in this application you will be able to control LED by your smartphone in about 5 minutes.Before we start, please make sure you have below things on hand:
+
 |What you need|
 |:---:|
 |**Wio node**[![](https://github.com/SeeedDocument/Wio_Node/raw/master/pictures/Wio%20Node2.png)](https://www.seeedstudio.com/Wio-Node-p-2637.html)|
@@ -131,7 +132,7 @@ What is DoButton? DoButtton is one of IFTTT's application that empowers you to c
 ### Example:
 
 |**IFTTT**|**DoButton**|
-|-|-|
+|:---|:---|
 |[**Recipe**][DIY an Automatic Garden Irrigation without coding](http://www.seeed.cc/project_detail.html?id=1080)|[**Recipe**][How to feed your pets when you're not home](http://www.seeed.cc/project_detail.html?id=1066)|
 |[**Video**][How to use ITFFF](https://vimeo.com/148590984)|[**Video**][How to use DoButton](https://vimeo.com/146988454)|
 
