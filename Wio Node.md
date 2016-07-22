@@ -28,7 +28,7 @@ The ecosystem of Wio Node also consists of Open Hardware **Wio Node board**, **O
 
 ## Specifications
 |General||Power Management||
-|:---|---|---|---:|
+|:---|---|:---|---:|
 |**Size**|28mm * 28mm|**DC Current Per I/O Pin**|12mA|
 |**Crystal**|26MHz|**Input Voltage (MicroUSB)**| 5V|
 |**Flash Memory**|4MBytes (W25Q32B)|**Input Voltage (Battery holder)**|3.4~4.2V|
@@ -67,6 +67,7 @@ Let us build a very basic LED application with Wio Node,in this application you 
 You need to install the Wio Link App to manage and configure your Wio Node devices.
 
 Download the Android or iOS App and install. Or you can go to app store of Apple or Google market and search "Wio Link",you will find it.
+
 |Android|iOS|
 |:---:|:---:|
 |[![](https://github.com/SeeedDocument/Wio_Node/raw/master/pictures/Wio%20core%20icon.png)](https://play.google.com/store/apps/details?id=cc.seeed.iot.ap)|[![](https://github.com/SeeedDocument/Wio_Node/raw/master/pictures/Wio%20core%20icon.png)](https://itunes.apple.com/us/app/wio-link/id1054893491?mt=8)|
@@ -111,20 +112,72 @@ Make sure your Android OS version is 4.1 or advanced, iOS version is 7 or advanc
 ![](https://github.com/SeeedDocument/Wio_Node/raw/master/pictures/Wio%20App/Wio_Node_Grove_LED.JPG)
 
 ### Step 5: Test application using APIs
+- Now that  you have successfully connect the LED to Wio Node,click "View API" to check the API of Wio Node
+- Input "1" or "0" in the "Test Rquest" area,and click "Post" button and see what will happen.
+
+![](https://github.com/SeeedDocument/Wio_Node/raw/master/pictures/change%20the%20valure%20to%20see%20what%20will%20happen.png)
+
+
+## Get started with IFTTT & DoButton
+Dont't know how to code? Don't worry,With the help of [IFTTT](https://en.wikipedia.org/wiki/IFTTT), even if you know nothing about coding, you are still able to build some simple projects.
+
+If you don't have an IFTTT account,click [here](https://ifttt.com/join) to sign up.
+
+If you already have an IFTTT account,click [here](https://ifttt.com/recipes/search?q=seeed) to connect with seeed, or search seeed at IFTTT website.There you will find 9 recipes by Seeed to teach you how to us e IFTTT.
+![](https://github.com/SeeedDocument/Wio_Node/raw/master/pictures/IFTTT%20recipes.png)
+What is DoButton? DoButtton is one of IFTTT's application that empowers you to create your own personalized button with just a tap,it is very suitable for building IoT projects and control it through your smartphone, here are two examples to show you how to use IFTTT&DoButton to make useful applications.
+
+### Example:
+|**IFTTT**|**DoButton**|
+|-|-|
+|[**Recipe**][DIY an Automatic Garden Irrigation without coding](http://www.seeed.cc/project_detail.html?id=1080)|[**Recipe**][How to feed your pets when you're not home](http://www.seeed.cc/project_detail.html?id=1066)|
+|[**Video**][How to use ITFFF](https://vimeo.com/148590984)|[**Video**][How to use DoButton](https://vimeo.com/146988454)|
+
 
 ## Application Ideas
+Wio Node is well designed to provide simple and economic wifi solutions for projects like:
+- Smart Home
+- Intelligent environmental monitoring
+- Funny Toys
+- Web of Things
+- Internet of Things
+
+In fact, we have already designed many projects in our [**recipe**](http://www.seeed.cc/projects.html?t=Wio), come and visit it to find some interesting projects or even share you own projects, I am sure it will gain a lot of fans for you ~
+
 |Irrigation control system |The internet of led wall | Dog feeding machine|
 |---|---|---|
 |[![](https://github.com/SeeedDocument/Wio_Node/raw/master/pictures/2.png)](http://www.seeed.cc/project_detail.html?id=1274)    |[![](https://github.com/SeeedDocument/Wio_Node/raw/master/pictures/1.png)](http://www.seeed.cc/project_detail.html?id=1594) |![](https://raw.githubusercontent.com/SeeedDocument/Wio_Node/master/pictures/3.png)|
+## Guide for advanced users
 
+If you are advanced users and want to know more details about Wio Node, here it is! [Guide for advanced users](https://github.com/Seeed-Studio/Wio_Link/wiki/Advanced%20User%20Guide).The guide covers:
+- Status LEDs
+- Process of Connecting to Server
+- Debug Console
+- Repair Bricked Wio Link
+- Use Wio Link Offline
+- Use Wio Link's SDK and Program in Arduino-Styleanced users
+
+ 
 ## FAQ
 
+If you have any issues when you are using Wio Node or other Wio products, welcome to the [Community of Wio](http://www.seeed.cc/topics.html?t=Wio) where there are many professional users waiting to give you advices and also many advanced users providing plenty of ideas on how to use Wio products!.Here are some examples 
+- [**Wio node and gesture sensor to control a servo**](http://www.seeed.cc/topic_detail.html?id=5787)
+- [**Incorrect temperature?**](http://www.seeed.cc/topic_detail.html?id=5787)
+- [**One Wire Temperature Sensor With WioNode**](http://www.seeed.cc/topic_detail.html?id=5781)
+- [**#idea SAM - an Integrated Sound and Music system for the home.**](http://www.seeed.cc/topic_detail.html?id=5609)
 ## Resources
+- Documentation and references
+  - [API Reference](http://seeed-studio.github.io/Wio_Link/)
+  - [Server Deployment Guide](https://github.com/Seeed-Studio/Wio_Link/wiki/Server%20Deployment%20Guide)
+  - [How to write module driver for Wio Link](https://github.com/Seeed-Studio/Wio_Link/wiki/How-to-write-module-driver-for-Wio-Link%3F)
+- Software
+  - [Sourcecode on Github.](https://github.com/Seeed-Studio/Wio_Link)
+- Hardware
+  - [Schematic Files](https://github.com/SeeedDocument/Wio_Node/raw/master/Recources/Wio%20Node%20v1.0.pdf)
+- Certificate
+  - [CE/FCC/TELEC Certified(only) for core module ESP-WROOM-02](https://github.com/SeeedDocument/Wio_Node/raw/master/Recources/CE-FCC-TELEC_Certified(only)_for_core_module_ESP-WROOM-02.zip)
 
-- [Grove - 3-Axis Analog Accelerometer Eagle File](https://github.com/SeeedDocument/Grove_3_Axis_Analog_Accelerometer/raw/master/resource/Grove_-_3-Axis_Analog_Accelerometer_Eagle_File.zip)
-- [3-Axis Analog Accelerometer Library](https://github.com/SeeedDocument/Grove_3_Axis_Analog_Accelerometer/raw/master/resource/AnalogAccelerometer.zip)
-- [github repository for 3-Axis Analog Accelerometer](https://github.com/Seeed-Studio/Accelerometer_ADXL335)
-- [ADXL335 datasheet.pdf](https://github.com/SeeedDocument/Grove_3_Axis_Analog_Accelerometer/raw/master/resource/ADXL335_datasheet.pdf)
+
 
 
 ## Help us to make it better
