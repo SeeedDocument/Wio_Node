@@ -2,13 +2,16 @@
 ***
 ## Introduction
 
-Building IoT project is exciting, as you can connect almost everything around you and control them. However it is also not easy to build IoT applications since it requires a lot of hard works such as hardware programming, jump wires, soldering etc.Even a well trained user would spend hours to hanlde all the work, let alone beginers. In order to simplify the development of IoT project, Seeed initiated **[Wio Link](http://www.seeedstudio.com/wiki/Wio_Link)** on **[kickstarter](https://www.kickstarter.com/projects/seeed/wio-link-3-steps-5-minutes-build-your-iot-applicat?ref=nav_search)** and it turn out a big sucess.The slogen on kickstarter well defined the main feature of Wio link:3 steps. 5 minutes. Build your own IoT applications!It is simple,it is fast buiding,however it is not ideal for all conditions.
+Building IoT project is exciting, as you can connect almost everything around you and control them. However it is also not easy to build IoT applications since it requires a lot of hard works such as hardware programming, jump wires, soldering etc.Even a well trained user would spend hours to hanlde all the work, let alone beginers. In order to simplify the development of IoT project, Seeed launched **[Wio Link](http://www.seeedstudio.com/wiki/Wio_Link)** on **[kickstarter](https://www.kickstarter.com/projects/seeed/wio-link-3-steps-5-minutes-build-your-iot-applicat?ref=nav_search)** and it turn out a big sucess.The slogen on kickstarter well defined the main feature of Wio link:
 
+**3 steps. 5 minutes. Build your own IoT applications!** 
+
+It is so simple, it is fast buiding, however it is not ideal for all conditions.
 What if we only need 2 grove connectors? What if there is limited space in the appication but Wio Link is over sized? What if we want to cost down? So right after we released Wio Link, a micro and economic solution was put on schedule,for months Seeeder has redesigned and optimized the WiFI board and here it is,the new member of Wio family---**Wio Node**.
 
 ![](https://github.com/SeeedDocument/Wio_Node/raw/master/pictures/Front%26Back.png)
 
-Just like the meaning of its name, Wio Node is truly a WiFi dot that connect things in IoT project. If Wio Link is big brother, Wio node must be the little brother in the Wio family coz this cute little guy is only quarter size of Wio link while intergrates all the basic features of Wio Link.
+Just like the meaning of its name, Wio Node is truly a WiFi node that connect things in IoT project. If Wio Link is big brother, Wio node must be the little brother in the Wio family coz this cute little guy is only quarter size of Wio link while intergrates all the basic features of Wio Link.
 
 The ecosystem of Wio Node also consists of Open Hardware **Wio Node board**, **Open Source Wio Link Mobile App** and **Open Source IoT Server implementation**. So the software platform for Wio Link is also available for Wio Node.
 
@@ -100,7 +103,7 @@ Make sure your Android OS version is 4.1 or advanced, iOS version is 7 or advanc
 
 - If you have successfully made the blue LED turn into breathing mode, you will find the wio node in the wifi list, connect to it!(Usually it is not called wio node in the wifi list, in the exsample, mine is Wio_091016, you may find one named wio_xxxxxx in your list.)
 - Once connected, you will receive a notice, then you can go back to the app 
-- Next step is connecting to the wifi of your home or company.
+- Next step is connecting to the wifi of your home or company
 
 ![](https://github.com/SeeedDocument/Wio_Node/raw/master/pictures/Wio%20App/Connect%20to%20Wio%20node2.png)
 
