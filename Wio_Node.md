@@ -1,7 +1,7 @@
 #Wio Node
 ## Introduction 
 ----
-Building IoT project is exciting, as you can connect almost everything around you and control them. However it is also not easy to build IoT applications since it requires a lot of hard works such as hardware programming, jump wires, soldering etc. Even a well-trained user would spend hours to handle all the work, let alone beginners. In order to simplify the development of IoT project, Seeed launched **[Wio Link](http://www.seeedstudio.com/wiki/Wio_Link)** on **[kickstarter](https://www.kickstarter.com/projects/seeed/wio-link-3-steps-5-minutes-build-your-iot-applicat?ref=nav_search)** and it turn out a big success. The slogan on Kickstarter well defined the main feature of Wio link: 
+Building IoT projects is exciting, as you can connect almost everything around you and control them. However sometime it is not easy to build IoT applications since it requires a lot of hard works, such as hardware,  programming, jump wires and soldering etc. Even a well-trained user would spend hours to handle all the work, let alone beginners. In order to simplify the development of IoT project, Seeed launched **[Wio Link](http://www.seeedstudio.com/wiki/Wio_Link)** on **[kickstarter](https://www.kickstarter.com/projects/seeed/wio-link-3-steps-5-minutes-build-your-iot-applicat?ref=nav_search)** and it turn out a big success. The slogan on Kickstarter well defined the main feature of Wio link: 
 
 **3 steps. 5 minutes. Build your own IoT applications!** 
 
@@ -80,6 +80,23 @@ In fact, we have already designed many projects in our [**recipe**](http://www.s
 |5  | Battery Holder|A jst2.0 connector, connect a 3.7V Li-Battery|
 |6  | Analog/I2C1/D1|Grove port, you can connect a Digital/I2C/Analog type Grove module|
 |7  | UART/I2C0/D0|Grove port, you can connect a UART/I2C/Digital type Grove module|
+
+###Status LEDs
+
+Near to the FUNCTION button there're 2 status Leds, a blue one and a red one. The BLUE led is the network status indicating led. It has the following blink patterns:
+
+- breathing Under configuration mode
+- blink twice quickly then off 1s requesting IP address from router
+- blink once quickly then off 1s connecting to the server
+- on 1s then off 1s The node is online
+- on constantly the node is dead for not getting IP or not connecting to server.
+- blink quickly (on 100ms then off 100ms) OTA
+
+!!!Note
+    The BLUE led is attached to GPIO2 which is also the TX pin of UART1. When downloading firmware, the UART1 dumps the data transmitting on UART0 by instinct. So the BLUE led will blink while downloading firmware. After startup the GPIO2 will be configured as a GPIO not TX of UART1.
+
+The RED led is another status led which indicates the power status of Grove modules. All the six Grove interface's VCC converge together and can be controlled with GPIO 15. When the node is in deep sleep mode, all the grove modules lose their power too. The RED led will light on when Grove modules are powered and will go off when Grove modules aren't powered.
+
 
 ### Bonus!
 Wio Node has an inbuilt LiPo battery charger, so you can charge 3.7v LiPo battery through JST 2.0 Port when USB is connecting.
@@ -181,14 +198,21 @@ What is DoButton? DoButton is one of IFTTT's application that empowers you to cr
 
 ## Guide for advanced users
 ----
-If you are advanced users and want to know more details about Wio Node, here it is! [Guide for advanced users](https://github.com/Seeed-Studio/Wio_Link/wiki/Advanced%20User%20Guide).The guide covers:
+If you want to know more details about Wio Node, here's some advanced guides. 
 
-- Status LEDs
-- Process of Connecting to Server
-- Debug Console
-- Repair Bricked Wio Link
-- Use Wio Link Offline
-- Use Wio Link's SDK and Program in Arduino-Styleanced users
+[![](https://raw.githubusercontent.com/SeeedDocument/Wio_Node/master/pictures/GOTO_ADVANCED_GUIDE.png)](https://github.com/Seeed-Studio/Wio_Link/wiki)
+
+The guide covers:
+
+- API Reference
+- Server Deployment Guide
+- Advanced User Guide
+- How to write module driver for Wio Link?
+
+
+
+!!!Note
+    The guide is writen for Wio Link, but applies to Wio Node as well.
 
  
 ## FAQ
