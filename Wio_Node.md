@@ -231,9 +231,10 @@ If you have any issues when you are using Wio Node or other Wio products, welcom
     - [Server Deployment Guide](https://github.com/Seeed-Studio/Wio_Link/wiki/Server%20Deployment%20Guide)
     - [How to write module driver for Wio Link](https://github.com/Seeed-Studio/Wio_Link/wiki/How-to-write-module-driver-for-Wio-Link%3F)
 - **Software**
-    - [Sourcecode on Github.](https://github.com/Seeed-Studio/Wio_Link)
+    - [Sourcecode on **Github**](https://github.com/Seeed-Studio/Wio_Link)
 - **Hardware**
-    - [Schematic Files](https://github.com/SeeedDocument/Wio_Node/raw/master/Recources/Wio%20Node%20v1.0.pdf)
+    - [Schematic File in **PDF**](https://github.com/SeeedDocument/Wio_Node/raw/master/Recources/Wio%20Node%20v1.0.pdf)
+    - [Schematic File in **Eagle**](https://github.com/SeeedDocument/Wio_Node/raw/master/Recources/Wio_Node_Schematics.zip)
 - **Certificate**
     - [CE/FCC/TELEC Certified(only) for core module ESP-WROOM-02](https://github.com/SeeedDocument/Wio_Node/raw/master/Recources/CE-FCC-TELEC_Certified(only)_for_core_module_ESP-WROOM-02.zip)
 
