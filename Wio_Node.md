@@ -1,4 +1,4 @@
-#Wio Node
+# Wio Node
 ## Introduction 
 ----
 Building IoT projects is exciting, as you can connect almost everything around you and control them. However sometime it is not easy to build IoT applications since it requires a lot of hard works, such as hardware,  programming, jump wires and soldering etc. Even a well-trained user would spend hours to handle all the work, let alone beginners. In order to simplify the development of IoT project, Seeed launched **[Wio Link](http://www.seeedstudio.com/wiki/Wio_Link)** on **[kickstarter](https://www.kickstarter.com/projects/seeed/wio-link-3-steps-5-minutes-build-your-iot-applicat?ref=nav_search)** and it turn out a big success. The slogan on Kickstarter well defined the main feature of Wio link: 
@@ -125,16 +125,19 @@ You need to install the Wio Link App to manage and configure your Wio Node devic
 
 Download the Android or iOS App and install. Or you can go to app store of Apple or Google market and search "Wio Link", you will find it.
 
-|Android|iOS|
+|Get Android App|Get iOS App|
 |:---:|:---:|
-|[![](https://github.com/SeeedDocument/Wio_Node/raw/master/pictures/Wio%20core%20icon.png)](https://play.google.com/store/apps/details?id=cc.seeed.iot.ap)|[![](https://github.com/SeeedDocument/Wio_Node/raw/master/pictures/Wio%20core%20icon.png)](https://itunes.apple.com/us/app/wio-link/id1054893491?mt=8)|
+|[![](https://github.com/SeeedDocument/Wio_Node/raw/master/pictures/Android%20Robot.jpg)](https://play.google.com/store/apps/details?id=cc.seeed.iot.ap)|[![](https://github.com/SeeedDocument/Wio_Node/raw/master/pictures/Apple.jpg)](https://itunes.apple.com/us/app/wio-link/id1054893491?mt=8)|
 
 !!!Note
     Make sure your Android OS version is 4.1 or advanced, iOS version is 7 or advanced.
 
 ### **STEP 2:** Create your Account
-- If it is your first time to use Wio APP, you may need to sign up first.
-- If you already have an account, check the server location before logging in, a wrong server location may lead to failure when connecting to Wio Node.
+- If it is your first time to use Wio APP, it may require GPS authorization, please approve it, then sign up.
+- If you already have an account, check the server location before logging in.
+
+Note!
+Please pay attention to the server location, because wrong server location will lead to failure when connecting to Wio Node.
 
 [![](https://github.com/SeeedDocument/Wio_Node/raw/master/pictures/Wio%20App/sign%20in%2Blog%20in%2Bchoose%20server.png)](https://github.com/SeeedDocument/Wio_Node/raw/master/pictures/Wio%20App/sign%20in%2Blog%20in%2Bchoose%20server.png)
 
@@ -181,6 +184,10 @@ Download the Android or iOS App and install. Or you can go to app store of Apple
 ----
 Dont't know how to code? Don't worry, with the help of [IFTTT](https://en.wikipedia.org/wiki/IFTTT), even if you know nothing about coding, you are still able to build some simple projects.
 
+IFTTT is an abbreviation of "If This Then That", it is a free web-based service that allows users to create chains of simple conditional statements, called "recipes", which are triggered based on changes to other web services such as Gmail, Facebook, Instagram. How does IFTTT work with Wio Node？ As you can see in below pictures, seeed provided cloud service at wio.seeed.io, which can interchange data and send instructions to IFTTT and Wio Node. So by creating some simple recipe, you are able to hack things without coding.
+
+![](https://github.com/SeeedDocument/Wio_Node/raw/master/pictures/WioLink-Workshop.png)
+
 If you don't have an IFTTT account, click [here](https://ifttt.com/join) to sign up.
 
 If you already have an IFTTT account,click [here](https://ifttt.com/recipes/search?q=seeed) to connect with Seeed, or search Seeed at IFTTT website. There you will find 9 recipes by Seeed to teach you how to us e IFTTT.
@@ -198,7 +205,7 @@ What is DoButton? DoButton is one of IFTTT's application that empowers you to cr
 
 ## Guide for advanced users
 ----
-If you want to know more details about Wio Node, here's some advanced guides. 
+Feel those examples too simple? Wanna make more complicated proejects? Here are the best guides for advanced users to hack things with Wio nude. By these guides, advanced users are able to know more detail information about Wio Node, deploy private server, even write module driver for Wio Node. 
 
 [![](https://raw.githubusercontent.com/SeeedDocument/Wio_Node/master/pictures/GOTO_ADVANCED_GUIDE.png)](https://github.com/Seeed-Studio/Wio_Link/wiki)
 
