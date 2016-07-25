@@ -125,9 +125,9 @@ You need to install the Wio Link App to manage and configure your Wio Node devic
 
 Download the Android or iOS App and install. Or you can go to app store of Apple or Google market and search "Wio Link", you will find it.
 
-|Get Android App|Get iOS App|
+|[![](https://github.com/SeeedDocument/Wio_Node/raw/master/pictures/Android%20Robot%20new.jpg)](https://play.google.com/store/apps/details?id=cc.seeed.iot.ap)|[![](https://github.com/SeeedDocument/Wio_Node/raw/master/pictures/Apple%20new.jpg)](https://itunes.apple.com/us/app/wio-link/id1054893491?mt=8)|
 |:---:|:---:|
-|[![](https://github.com/SeeedDocument/Wio_Node/raw/master/pictures/Android%20Robot.jpg)](https://play.google.com/store/apps/details?id=cc.seeed.iot.ap)|[![](https://github.com/SeeedDocument/Wio_Node/raw/master/pictures/Apple.jpg)](https://itunes.apple.com/us/app/wio-link/id1054893491?mt=8)|
+|[Get Android App](https://play.google.com/store/apps/details?id=cc.seeed.iot.ap)|[Get iOS App](https://itunes.apple.com/us/app/wio-link/id1054893491?mt=8)|
 
 !!!Note
     Make sure your Android OS version is 4.1 or advanced, iOS version is 7 or advanced.
@@ -136,7 +136,7 @@ Download the Android or iOS App and install. Or you can go to app store of Apple
 - If it is your first time to use Wio APP, it may require GPS authorization, please approve it, then sign up.
 - If you already have an account, check the server location before logging in.
 
-Note!
+!!!Note
 Please pay attention to the server location, because wrong server location will lead to failure when connecting to Wio Node.
 
 [![](https://github.com/SeeedDocument/Wio_Node/raw/master/pictures/Wio%20App/sign%20in%2Blog%20in%2Bchoose%20server.png)](https://github.com/SeeedDocument/Wio_Node/raw/master/pictures/Wio%20App/sign%20in%2Blog%20in%2Bchoose%20server.png)
@@ -224,12 +224,27 @@ The guide covers:
  
 ## FAQ
 ----
-If you have any issues when you are using Wio Node or other Wio products, welcome to the [Community of Wio](http://www.seeed.cc/topics.html?t=Wio) where there are many professional users waiting to give you advices and also many advanced users providing plenty of ideas on how to use Wio products! Here are some examples 
+Here are some questions that we usually received from new users. If you have any other issues when you are using Wio Node or other Wio products, welcome to the [Community of Wio](http://www.seeed.cc/topics.html?t=Wio) where there are many professional users waiting to give you advices and also many advanced users providing plenty of ideas on how to use Wio products! 
 
-- [**Wio node and gesture sensor to control a servo**](http://www.seeed.cc/topic_detail.html?id=5787)
-- [**Incorrect temperature?**](http://www.seeed.cc/topic_detail.html?id=5787)
-- [**One Wire Temperature Sensor With WioNode**](http://www.seeed.cc/topic_detail.html?id=5781)
-- [**#idea SAM - an Integrated Sound and Music system for the home.**](http://www.seeed.cc/topic_detail.html?id=5609)
+**1. What's the difference between Wio Node and Wio Link?**
+
+Wio Node is like mini Wio Link, it is only quarter size of Wio Link and much cheaper. Despite the size and price, Wio Node still has full function of Wio Link. For those who prefer smaller size to more grove connectors. Wio node is the best choice.
+
+**2. What should I do if can't connect with Server?**
+
+Log out and check if you chose wrong server before logging in. If you are not in China Mainland, please choose global server.
+
+**3. Fail to configure Wio Node and can't find Wio Node in wifi list?**
+
+Pay attention to the blue LED. Make sure it is in breathing mode (blinking with fade in & fade out effect, it is a very unique mode, very easy to recognize) before any further steps. Only the LED in breathing mode can Wio Node be found in WiFi list.
+
+**4. If I want to connect more than 1 I2C devices, what should I do?**
+
+[Grove-I2C hub](https://www.seeedstudio.com/s/I2C%20hub.html) can branch 1 I2C port into 4. Come to [Bazzar](https://www.seeedstudio.com/s/I2C%20hub.html) to get one!
+
+**5. Can I change Wio Node into sleep mode?**
+
+Yes, please check the last API, where you can command Wio Node into sleep mode.
 
 ## Resources
 ----
